@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Task 5: Dark mode styles */
+body.dark-mode {
+  background-color: #222;
+  color: #eee;
+}
+
+body.dark-mode .container {
+  background-color: #333;
+  border-color: #555;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 17px;
+  color: inherit;
+}
+
+.container {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 450px;
+  border-radius: 8px;
+}
+
+input {
+  padding: 9px;
+  font-size: 15px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 9px 15px;
+  font-size: 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 6px;
+  margin-top: 8px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#removeBtn {
+  background-color: #e74c3c;
+  margin-left: 0;
+}
+
+#removeBtn:hover {
+  background-color: #c0392b;
+}
+
+#darkBtn {
+  background-color: #555;
+  margin-left: 0;
+}
+
+#darkBtn:hover {
+  background-color: #333;
+}
+
+#clearBtn {
+  background-color: #e67e22;
+  margin-left: 0;
+}
+
+#clearBtn:hover {
+  background-color: #ca6f1e;
+}
+
+p {
+  font-size: 15px;
+  margin: 12px 0;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
